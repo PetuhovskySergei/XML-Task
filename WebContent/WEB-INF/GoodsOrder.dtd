@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT GoodsOrder (Product+)>
+<!ELEMENT Product (ProductName, Producer, Model?, DateOfIssue?, Color+, Price?)>
+<!ELEMENT ProductName (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT DateOfIssue (#PCDATA)>
+<!ELEMENT Color (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>

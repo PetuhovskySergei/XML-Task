@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GoodsOrder SYSTEM "GoodsOrder.dtd">
+<GoodsOrder>		
+	<Product>
+		<ProductName>Red Lion</ProductName>
+		<Producer>ToyMaker</Producer>
+		<Model>AB123</Model>
+		<DateOfIssue>02-06-2016</DateOfIssue>
+		<Color>Red</Color>
+		<Price>10</Price>
+	</Product>
+	
+	<Product>
+		<ProductName>Screen</ProductName>
+		<Producer>Lenovo</Producer>
+		<Model>VD311</Model>
+		<DateOfIssue>13-08-2016</DateOfIssue>
+		<Color>Black</Color>
+		<Price>1500</Price>
+	</Product>
+	
+	<Product>
+		<ProductName>Video Card</ProductName>
+		<Producer>NVidia</Producer>
+		<Model>GT900</Model>
+		<DateOfIssue>11-03-2015</DateOfIssue>
+		<Color>Silver</Color>
+		<Price>1500</Price>
+	</Product>
+</GoodsOrder>
