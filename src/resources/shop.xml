@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+	<shop category="technology">
+		<shop subcategory="phone">
+			<product>
+				<name>Lenovo WibeX2</name>
+				<producer>Lenovo</producer>
+				<model>XX222</model>
+				<dateOfIssue>02-06-2005</dateOfIssue>
+				<color>White</color>
+				<price>300</price>
+			</product>
+			<product>
+				<name>HTC Explorer</name>
+				<producer>HTC</producer>
+				<model>AB332</model>
+				<dateOfIssue>18-08-2003</dateOfIssue>
+				<color>Black</color>
+				<price>200</price>
+			</product>
+			<product>
+				<name>Sony k310</name>
+				<producer>Sony</producer>
+				<model>AK310</model>
+				<dateOfIssue>12-10-2008</dateOfIssue>
+				<color>Black</color>
+				<price>500</price>
+			</product>
+		</shop>
+		<shop subcategory="tablet">
+			<product>
+				<name>Samsung Galaxy Tab</name>
+				<producer>Samsung</producer>
+				<model>GT450</model>
+				<dateOfIssue>04-12-2015</dateOfIssue>
+				<color>Green</color>
+				<price>550</price>
+			</product>
+			<product>
+				<name>Asus Tablet</name>
+				<producer>Asus</producer>
+				<model>AT503</model>
+				<dateOfIssue>08-01-2013</dateOfIssue>
+				<color>Black</color>
+				<price>330</price>
+			</product>
+		</shop>
+	</shop>
+	<shop category="music">
+		<shop subcategory="instrument">
+			<product>
+				<name>Guitar Yamaha F310</name>
+				<producer>Yamaha</producer>
+				<model>AF310</model>
+				<dateOfIssue>01-06-2012</dateOfIssue>
+				<color>Green</color>
+				<price>500</price>
+			</product>	
+			<product>
+				<name>Drums Yamaha Nakano</name>
+				<producer>Yamaha</producer>
+				<model>PN220</model>
+				<dateOfIssue>11-02-2007</dateOfIssue>
+				<color>Silver</color>
+				<price>1110</price>
+			</product>
+		</shop>
+	</shop>
+</shop>
