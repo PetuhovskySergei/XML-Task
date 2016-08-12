@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shop>
-	<shop category="technology">
-		<shop subcategory="phone">
+	<technology>
+		<phone>
 			<product>
 				<name>Lenovo WibeX2</name>
 				<producer>Lenovo</producer>
@@ -26,8 +26,8 @@
 				<color>Black</color>
 				<price>500</price>
 			</product>
-		</shop>
-		<shop subcategory="tablet">
+		</phone>
+		<tablet>
 			<product>
 				<name>Samsung Galaxy Tab</name>
 				<producer>Samsung</producer>
@@ -44,10 +44,10 @@
 				<color>Black</color>
 				<notInStock>Not in Stock</notInStock>
 			</product>
-		</shop>
-	</shop>
-	<shop category="music">
-		<shop subcategory="instrument">
+		</tablet>
+	</technology>
+	<music>
+		<instrument>
 			<product>
 				<name>Guitar Yamaha F310</name>
 				<producer>Yamaha</producer>
@@ -64,6 +64,6 @@
 				<color>Silver</color>
 				<price>1110</price>
 			</product>
-		</shop>
-	</shop>
+		</instrument>
+	</music>
 </shop>
