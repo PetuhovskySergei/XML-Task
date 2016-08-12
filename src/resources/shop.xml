@@ -16,7 +16,7 @@
 				<model>AB332</model>
 				<dateOfIssue>18-08-2003</dateOfIssue>
 				<color>Black</color>
-				<price>200</price>
+				<notInStock>Not in Stock</notInStock>
 			</product>
 			<product>
 				<name>Sony k310</name>
@@ -42,7 +42,7 @@
 				<model>AT503</model>
 				<dateOfIssue>08-01-2013</dateOfIssue>
 				<color>Black</color>
-				<price>330</price>
+				<notInStock>Not in Stock</notInStock>
 			</product>
 		</shop>
 	</shop>
@@ -54,7 +54,7 @@
 				<model>AF310</model>
 				<dateOfIssue>01-06-2012</dateOfIssue>
 				<color>Green</color>
-				<price>500</price>
+				<notInStock>Not in Stock</notInStock>
 			</product>	
 			<product>
 				<name>Drums Yamaha Nakano</name>
