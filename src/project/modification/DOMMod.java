@@ -31,24 +31,15 @@ public class DOMMod{
 	
 	    Node shop = document.getFirstChild();
     
-    //take a catagory name
+    
 		Node category = document.getElementsByTagName("technology").item(0);
 		shop.appendChild(category);
-  //  
+ 
 		Node subcategory = document.getElementsByTagName("phone").item(0);
 		category.appendChild(subcategory);
     
-		//Node product = document.createElement("product");
-		
-		
-         //Корневой элемент
-    //     Document document = documentBuilder.newDocument();
-    //     Element rootElement = document.createElement("phone");
-        // document.appendChild(subcategory);
-
-         //Child's корневого элемента
-         Element product = document.createElement("product");
-         subcategory.appendChild(product);
+        Element product = document.createElement("product");
+        subcategory.appendChild(product);
 
          
          Element nname = document.createElement("name");
@@ -75,7 +66,7 @@ public class DOMMod{
          nprice.appendChild(document.createTextNode("1000"));
          product.appendChild(nprice);
 
-         //Запись контента в XML файл
+         
          TransformerFactory transformerFactory = TransformerFactory.newInstance();
          Transformer transformer = transformerFactory.newTransformer();
          DOMSource domSource = new DOMSource(document);

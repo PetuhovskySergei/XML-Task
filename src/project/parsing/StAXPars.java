@@ -27,7 +27,7 @@ public class StAXPars {
 	         XMLInputFactory factory = XMLInputFactory.newInstance();
 	         XMLEventReader eventReader =
 	         factory.createXMLEventReader(
-	            new FileReader("../src/resources/shop.xml"));
+	            new FileReader("src/resources/shop.xml"));
 
 	            while(eventReader.hasNext()){
 	               XMLEvent event = eventReader.nextEvent();
@@ -36,10 +36,7 @@ public class StAXPars {
 	                     StartElement startElement = event.asStartElement();
 	                     String qName = startElement.getName().getLocalPart();
 	                     if (qName.equalsIgnoreCase("product")) {
-	                        System.out.println("Start Element : product");
-	                        Iterator<Attribute> attributes = startElement.getAttributes();
-	                        String rollNo = attributes.next().getValue();
-	                        System.out.println("Roll No : " + rollNo);
+	                   
 	                     } else if (qName.equalsIgnoreCase("name")) {
 	                        bName = true;
 	                     } else if (qName.equalsIgnoreCase("producer")) {
@@ -96,7 +93,7 @@ public class StAXPars {
 	                  case  XMLStreamConstants.END_ELEMENT:
 	                     EndElement endElement = event.asEndElement();
 	                     if(endElement.getName().getLocalPart().equalsIgnoreCase("product")){
-	                        System.out.println("End Element : product");
+	                        
 	                        System.out.println();
 	                     }
 	                     break;

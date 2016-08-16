@@ -1,45 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <shop>
-	<music>
-		<instrument>
-			<product>
-				<name>Guitar Yamaha F310</name>
-				<producer>Yamaha</producer>
-				<model>AF310</model>
-				<dateOfIssue>01-06-2012</dateOfIssue>
-				<color>Green</color>
-				<notInStock>Not in Stock</notInStock>
-			</product>	
-			<product>
-				<name>Drums Yamaha Nakano</name>
-				<producer>Yamaha</producer>
-				<model>PN220</model>
-				<dateOfIssue>11-02-2007</dateOfIssue>
-				<color>Silver</color>
-				<price>1110</price>
-			</product>
-		</instrument>
-	</music>
-<technology>	
-		<tablet>
-			<product>
-				<name>Samsung Galaxy Tab</name>
-				<producer>Samsung</producer>
-				<model>GT450</model>
-				<dateOfIssue>04-12-2015</dateOfIssue>
-				<color>Green</color>
-				<price>550</price>
-			</product>
-			<product>
-				<name>Asus Tablet</name>
-				<producer>Asus</producer>
-				<model>AT503</model>
-				<dateOfIssue>08-01-2013</dateOfIssue>
-				<color>Black</color>
-				<notInStock>Not in Stock</notInStock>
-			</product>
-		</tablet>
-	<phone>
+	<technology>
+		<phone>
 			<product>
 				<name>Lenovo WibeX2</name>
 				<producer>Lenovo</producer>
@@ -64,14 +26,44 @@
 				<color>Black</color>
 				<price>500</price>
 			</product>
+		</phone>
+		<tablet>
 			<product>
-				<name>New</name>
-				<producer>New</producer>
-				<model>New</model>
-				<dateOfIssue>01-01-2011</dateOfIssue>
-				<color>New</color>
-				<price>1000</price>
+				<name>Samsung Galaxy Tab</name>
+				<producer>Samsung</producer>
+				<model>GT450</model>
+				<dateOfIssue>04-12-2015</dateOfIssue>
+				<color>Green</color>
+				<price>550</price>
 			</product>
-	</phone>
-</technology>
+			<product>
+				<name>Asus Tablet</name>
+				<producer>Asus</producer>
+				<model>AT503</model>
+				<dateOfIssue>08-01-2013</dateOfIssue>
+				<color>Black</color>
+				<notInStock>Not in Stock</notInStock>
+			</product>
+		</tablet>
+	</technology>
+	<music>
+		<instrument>
+			<product>
+				<name>Guitar Yamaha F310</name>
+				<producer>Yamaha</producer>
+				<model>AF310</model>
+				<dateOfIssue>01-06-2012</dateOfIssue>
+				<color>Green</color>
+				<notInStock>Not in Stock</notInStock>
+			</product>	
+			<product>
+				<name>Drums Yamaha Nakano</name>
+				<producer>Yamaha</producer>
+				<model>PN220</model>
+				<dateOfIssue>11-02-2007</dateOfIssue>
+				<color>Silver</color>
+				<price>1110</price>
+			</product>
+		</instrument>
+	</music>
 </shop>
