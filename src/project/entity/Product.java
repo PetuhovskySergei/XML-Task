@@ -1,10 +1,12 @@
-package java.entity;
+package project.entity;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 public class Product {
 	
+	private String category;
+	private String subcategory;
 	private String name;
 	private String producer;
 	private String model;
@@ -13,6 +15,19 @@ public class Product {
 	private BigDecimal price;
 	private String notInStock;
 	
+		
+		public String getCategory() {
+			return category;
+		}
+		public void setCategory(String category) {
+			this.category = category;
+		}
+		public String getSubcategory() {
+			return subcategory;
+		}
+		public void setSubcategory(String subcategory) {
+			this.subcategory = subcategory;
+		}
 		public String getName() {
 			return name;
 		}
@@ -55,5 +70,10 @@ public class Product {
 		public void setNotInStock(String notInStock) {
 			this.notInStock = notInStock;
 		}
-		
+		@Override
+		public String toString() {
+			return "Product [category=" + category + ", subcategory=" + subcategory + ", name=" + name + ", producer="
+					+ producer + ", model=" + model + ", dateOfIssue=" + dateOfIssue + ", color=" + color + ", price="
+					+ price + ", notInStock=" + notInStock + "]";
+		}
 }
