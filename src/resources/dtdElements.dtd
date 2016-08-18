@@ -2,9 +2,10 @@
 <!ELEMENT shop (technology?, music?)>
 <!ELEMENT technology (phone+, tablet+)>
 <!ELEMENT music (instrument+)>
-<!ELEMENT phone (name?, producer?, model?, dateOfIssue?, color+, price?, notInStock?)>
-<!ELEMENT tablet (name?, producer?, model?, dateOfIssue?, color+, price?, notInStock?)>
-<!ELEMENT instrument (name?, producer?, model?, dateOfIssue?, color+, price?, notInStock?)>
+<!ELEMENT phone (product+)>
+<!ELEMENT tablet (product+)>
+<!ELEMENT instrument (product+)>
+<!ELEMENT product (name?, producer?, model?, dateOfIssue?, color+, price?, notInStock?)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT producer (#PCDATA)>
 <!ELEMENT model (#PCDATA)>
