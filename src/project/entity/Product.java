@@ -72,8 +72,8 @@ public class Product {
 		}
 		@Override
 		public String toString() {
-			return "Product [category=" + category + ", subcategory=" + subcategory + ", name=" + name + ", producer="
-					+ producer + ", model=" + model + ", dateOfIssue=" + dateOfIssue + ", color=" + color + ", price="
-					+ price + ", notInStock=" + notInStock + "]";
+			return "Product [category: " + category + "  subcategory: " + subcategory + "  \n name: " + name + "  \n producer: "
+					+ producer + "  \n model: " + model + "  \n Date Of Issue: " + dateOfIssue + "  \n color: " + color + "  \n price: "
+					+ price + "  \n Not In Stock: " + notInStock + "]\n";
 		}
 }
