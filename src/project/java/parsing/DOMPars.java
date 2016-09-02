@@ -1,4 +1,4 @@
-package project.parsing;
+package project.java.parsing;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -14,7 +14,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import project.entity.Product;
+import project.java.entity.Product;
 
 public class DOMPars {
 
@@ -22,7 +22,8 @@ public class DOMPars {
 	    //Get the DOM Builder Factory
 	    DocumentBuilderFactory factory = 
 	        DocumentBuilderFactory.newInstance();
-	 
+	    factory.setValidating(true);
+	    
 	    //Get the DOM Builder
 	    DocumentBuilder builder = factory.newDocumentBuilder();
 	 
@@ -30,7 +31,7 @@ public class DOMPars {
 	    //document contains the complete XML as a Tree.
 	    Document document = 
 	      builder.parse(
-	        ClassLoader.getSystemResourceAsStream("resources/shop.xml"));
+	        ClassLoader.getSystemResourceAsStream("project/resources/shop.xml"));
 	 
 	 
 	    List<Product> prodList = new ArrayList<>();

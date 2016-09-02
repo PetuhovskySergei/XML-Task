@@ -1,4 +1,4 @@
-package project.entity;
+package project.java.entity;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -1,8 +1,8 @@
-package project.parsing;
+package project.java.parsing;
 
 import org.xml.sax.helpers.DefaultHandler;
 
-import project.entity.Product;
+import project.java.entity.Product;
 
 import java.math.BigDecimal;
 import java.text.ParseException;
@@ -65,31 +65,31 @@ public class SAXPars extends DefaultHandler {
  
                 public void characters(char ch[], int start, int length) throws SAXException{
                     if(bName){
-                        System.out.println("Name: " + new String(ch, start, length));
+                        System.out.print("Name: " + new String(ch, start, length));
                         bName = false;
                     }
                     if(bProducer){
-                        System.out.println("Producer: " + new String(ch, start, length));
+                        System.out.print("Producer: " + new String(ch, start, length));
                         bProducer = false;
                     }
                     if(bModel){
-                        System.out.println("Model: " + new String(ch, start, length));
+                        System.out.print("Model: " + new String(ch, start, length));
                         bModel = false;
                     }
                     if(bDateOfIssue){
-                        System.out.println("Date Of Issue: " + new String(ch, start, length));
+                        System.out.print("Date Of Issue: " + new String(ch, start, length));
                         bDateOfIssue = false;
                     }
                     if(bColor){
-                        System.out.println("Color: " + new String(ch, start, length));
+                        System.out.print("Color: " + new String(ch, start, length));
                         bColor = false;
                     }
                     if(bPrice){
-                        System.out.println("Price: " + new String(ch, start, length));
+                        System.out.print("Price: " + new String(ch, start, length));
                         bPrice = false;
                     }
                     if(bNotInStock){
-                        System.out.println(new String(ch, start, length));
+                        System.out.print(new String(ch, start, length));
                         bNotInStock = false;
                     }
                     System.out.println();
@@ -97,7 +97,7 @@ public class SAXPars extends DefaultHandler {
                 
             };
  
-            saxParser.parse("src/resources/shop.xml", defaultHandler);
+            saxParser.parse("src/project/resources/shop.xml", defaultHandler);
         }
         catch (Exception ex)
         {

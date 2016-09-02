@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/schemaShop" xmlns:tns="http://www.example.org/schemaShop" elementFormDefault="qualified">
+	<xs:element name="shop">
+		<xs:complexType>
+			<xs:element name="technology">
+				<xs:complexType>
+					<xs:element name="phone">
+						<xs:complexType>
+							<xs:element name="product">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string"/>
+										<xs:element name="producer" type="xs:string"/>
+										<xs:element name="model" type="xs:string"/>
+										<xs:element name="dateOfIssue" type="xs:date"/>
+										<xs:element name="color" type="xs:string"/>
+										<xs:element name="price" type="xs:decimal"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="tablet">
+						<xs:complexType>
+							<xs:element name="product">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string"/>
+										<xs:element name="producer" type="xs:string"/>
+										<xs:element name="model" type="xs:string"/>
+										<xs:element name="dateOfIssue" type="xs:date"/>
+										<xs:element name="color" type="xs:string"/>
+										<xs:element name="price" type="xs:decimal"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:complexType>
+					</xs:element>
+				</xs:complexType>
+			</xs:element>
+				<xs:element name="music">
+				<xs:complexType>
+					<xs:element name="instrument">
+						<xs:complexType>
+							<xs:element name="product">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string"/>
+										<xs:element name="producer" type="xs:string"/>
+										<xs:element name="model" type="xs:string"/>
+										<xs:element name="dateOfIssue" type="xs:date"/>
+										<xs:element name="color" type="xs:string"/>
+										<xs:element name="price" type="xs:decimal"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:complexType>
+					</xs:element>			
+				</xs:complexType>
+			</xs:element>
+		</xs:complexType>
+	</xs:element>
+</schema>

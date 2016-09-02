@@ -1,4 +1,4 @@
-package project.modification;
+package project.java.modification;
 
 import java.io.File;
 import java.io.IOException;

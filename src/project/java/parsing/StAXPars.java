@@ -1,4 +1,4 @@
-package project.parsing;
+package project.java.parsing;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -27,7 +27,7 @@ public class StAXPars {
 	         XMLInputFactory factory = XMLInputFactory.newInstance();
 	         XMLEventReader eventReader =
 	         factory.createXMLEventReader(
-	            new FileReader("src/resources/shop.xml"));
+	            new FileReader("src/project/resources/shop.xml"));
 
 	            while(eventReader.hasNext()){
 	               XMLEvent event = eventReader.nextEvent();

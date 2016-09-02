@@ -1,22 +1,22 @@
-package project.parsing;
+package project.java.parsing;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import project.entity.Product;
-import project.modification.DOMMod;
+import project.java.entity.Product;
+import project.java.modification.DOMMod;
 
 public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		try{
+/*		try{
 			StAXPars.main(args);
 		} catch (Exception e){
 			e.printStackTrace();
 		}
-		
-	 
+	
+	*/ 
 
 		try {
 			DOMPars.main(args);
@@ -27,11 +27,14 @@ public class App {
 			e.printStackTrace();
 		}
 	 
-	  	try{
+	 
+	 /* 	try{
 		SAXPars.main(args);
 	  	} catch (Exception e) {
 	  		e.printStackTrace();
 	  	}
-	}
+	} */
 }
+}
+
 
