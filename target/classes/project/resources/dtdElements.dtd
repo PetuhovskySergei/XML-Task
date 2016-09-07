@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT shop (technology?, music?)>
+<!ELEMENT technology (phone+, tablet+)>
+<!ELEMENT music (instrument+)>
+<!ELEMENT phone (product+)>
+<!ELEMENT tablet (product+)>
+<!ELEMENT instrument (product+)>
+<!ELEMENT product (name?, producer?, model?, dateOfIssue?, color+, price?, notInStock?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT dateOfIssue (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT notInStock (#PCDATA)>
