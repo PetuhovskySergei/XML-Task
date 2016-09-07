@@ -1,9 +1,0 @@
-project\java\parsing\SAXPars.class
-project\java\parsing\DOMPars.class
-project\java\parsing\SAXPars$1.class
-project\java\entity\Product.class
-project\java\parsing\App.class
-project\java\modification\DOMMod.class
-project\java\parsing\StAXPars.class
-test\java\AddDataForProductTest.class
-test\java\CheckForNullTest.class
